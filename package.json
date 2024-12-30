@@ -15,7 +15,6 @@
     "build-deploy": "vite build && firebase deploy"
   },
   "dependencies": {
-    "@unhead/vue": "^1.11.14",
     "firebase-tools": "^13.29.1",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0",
