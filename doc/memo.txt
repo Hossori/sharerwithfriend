@@ -5,3 +5,10 @@ firebaseでのログイン情報をvue側に反映させる方法
 https://note.com/noabou/n/n4f753f60a556
 JavaScript でパスワード ベースのアカウントを使用して Firebase 認証を行う 
 https://firebase.google.com/docs/auth/web/password-auth?hl=ja&authuser=0&_gl=1*4pmo89*_up*MQ..*_ga*MjU5MjgzMDAyLjE3MzU5NTAyNzk.*_ga_CW55HF8NVT*MTczNTk1MDI3OS4xLjEuMTczNTk1MDY3Ny4wLjAuMA..
+
+・タイトルの設定
+views/XxxView.vueに下記を定義する方法について、最初に読んだものでその後固定になってしまう。
+document.addEventListener('DOMContentLoaded', () => {
+    document.title = 'いこうや';
+})
+router/index.jsで meta: {title: 'xxx'} を定義する方法について、効かなかった。

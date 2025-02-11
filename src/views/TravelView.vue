@@ -2,10 +2,6 @@
 import { defineComponent, ref } from 'vue';
 import SlideUpDown from 'vue-slide-up-down';
 
-document.addEventListener('DOMContentLoaded', () => {
-    document.title = 'いこうや';
-});
-
 export default defineComponent({
     components: {
         SlideUpDown,
