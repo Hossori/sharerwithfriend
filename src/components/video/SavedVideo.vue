@@ -5,11 +5,12 @@ const props = defineProps({
     channelTitle: String,
     description: String,
     thumbnailUrl: String,
-    publishedAt: String,
+    publishedAt: Date,
     liveBroadcastContent: String,
     duration: String,
     categoryId: String,
     owner: String,
+    registeredAt: Date,
 });
 </script>
 
